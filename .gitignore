@@ -1,0 +1,5 @@
+# 実行上
+.ipynb_checkpoints/*
+
+# データ
+data/Science4Cast/*
