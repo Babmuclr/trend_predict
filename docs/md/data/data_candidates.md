@@ -6,11 +6,19 @@
 # 概要
 新たな研究トピックに利用できるベンチマークデータセットが公開されていないので、基本的に新しい問題設定で、グラフを作成し直すには、新しくデータを作り直す必要がある。データの提供元として、次のサイトが候補になる。
 - arXiv(https://arxiv.org/)
+    - https://www.kaggle.com/datasets/Cornell-University/arxiv
+    - http://lukasschwab.me/arxiv.py/index.html
 - Web of Science(https://clarivate.com/ja/solutions/web-of-science/)
+    - https://github.com/muschellij2/webofscience
+    - https://developer.clarivate.com/apis
+- Semantic Scholar (米国・Allen AI Institute)(https://api.semanticscholar.org/corpus/)
+    - abstractがなくて、困る
+- Aminer (中国・清華大学)(https://www.aminer.org/data/)
+    - TODO:まだやっていない
+- Academic Knowledge Graph (米国・Microsoft Research)(https://makg.org)
+    - 使えそうだが、どうやってやるか調べる必要がある
 
-この二つから、作成する方法を調べることが必要かもしれない。
-
-# 詳細
+# 研究トレンドに関する論文の詳細
 
 ## Embedding technique and network analysis of scientific innovations emergence in an arXiv-based concept network
 データの発行元：掲載・データの作り方：あり・データの配布：なし<br>
@@ -31,13 +39,11 @@ https://arxiv.org/abs/1911.02782<br>
 
 S2ORC、1を紹介します。これは、多くの学問分野にまたがる81.1Mの英語の学術論文の大規模なコーパスです。 コーパスは、豊富なメタデータ、論文の要約、解決された書誌参照、および810万のオープンアクセス論文の構造化された全文で構成されています。 全文には、引用、図、表の自動的に検出されたインラインの言及が注釈として付けられ、それぞれが対応する紙のオブジェクトにリンクされています。 S2ORCでは、何百もの学術出版社からの論文とデジタルアーカイブを統合されたソースに集約し、これまでに機械可読な学術テキストの最大の公的に利用可能なコレクションを作成します。 このリソースが、学術テキストを介したテキストマイニングのためのツールとタスクの研究開発を促進することを願っています。
 
-
 ## Topic diffusion analysis of a weighted citation network in biomedical literature
 https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23960<br>
 データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
-PubMed and PubMed Centralからデータを取得。化合物にのみ適応可能？
+PubMed and PubMed Centralからデータを取得。
 バイアスチックなことをやっている。発行元によって引用数は変化してしまうことから、人気度の新しい考え方を提案。
-
 
 ## Predicting the Impact of Scientific Concepts UsingFull-Text Features
 https://deepblue.lib.umich.edu/bitstream/handle/2027.42/134425/asi23612.pdf?sequence=1<br>
@@ -48,7 +54,6 @@ https://deepblue.lib.umich.edu/bitstream/handle/2027.42/134425/asi23612.pdf?sequ
 https://www.sciencedirect.com/science/article/abs/pii/S0048733314000298?via%3Dihub<br>
 データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
 データの作り方の部分は、少し乗っていたので、参考になるかも。
-
 
 ## A bibliometric model for identifying emerging research topics
 https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23930<br>
@@ -69,3 +74,5 @@ sciencedirect.com/science/article/abs/pii/S0306457321001072#bib0049
 https://www.sciencedirect.com/science/article/pii/S0048733314000298?via%3Dihub#bib0030<br>
 データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
 
+## Towards an explanatory and computational theory of scientific discovery
+https://www.sciencedirect.com/science/article/pii/S1751157709000236
