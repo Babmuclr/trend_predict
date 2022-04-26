@@ -24,6 +24,23 @@
 データの発行元：掲載・データの作り方：あり・データの配布：なし<br>
 arXivで作ったデータを使って、解析している。内容はよくわからないが、データの作成をしなければならない時、参考にできる
 
+## **Identifying emerging topics in science and technology**
+https://www.sciencedirect.com/science/article/pii/S0048733314000298?via%3Dihub#bib0030<br>
+データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
+https://link.springer.com/content/pdf/10.1007/s11192-009-0051-9.pdf <br>
+https://link.springer.com/content/pdf/10.1007/s11192-006-0132-y.pdf
+
+
+## **A bibliometric model for identifying emerging research topics**
+https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23930<br>
+データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
+- A new methodology for constructing a publication-level classification system of science<br>
+http://www.ludowaltman.nl/classification_system/<br>
+- The inconsistency of the h-index<br>
+https://onlinelibrary.wiley.com/doi/full/10.1002/asi.21678
+
+よくわからない
+
 ## Forecasting Emerging Trends from Scientific Literature
 https://aclanthology.org/L16-1066/<br>
 LREC議事録をデータとしているが、機械学習の文脈では、不適切。
@@ -55,24 +72,10 @@ https://www.sciencedirect.com/science/article/abs/pii/S0048733314000298?via%3Dih
 データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
 データの作り方の部分は、少し乗っていたので、参考になるかも。
 
-## A bibliometric model for identifying emerging research topics
-https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.23930<br>
-データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
-- A new methodology for constructing a publication-level classification system of science<br>
-http://www.ludowaltman.nl/classification_system/<br>
-- The inconsistency of the h-index<br>
-https://onlinelibrary.wiley.com/doi/full/10.1002/asi.21678
-
-よくわからない
-
 ## Combining deep neural network and bibliometric indicator for emerging research topic prediction
 sciencedirect.com/science/article/abs/pii/S0306457321001072#bib0049
 データの発行元：掲載・データの作り方：論文引用(https://www.nature.com/articles/s41587-019-0275-z には記載なし）・データの配布：なし<br>
 次に来る論文のトピックを、将来のトピックの論文数などから判断し、予測する。
-
-## Identifying emerging topics in science and technology
-https://www.sciencedirect.com/science/article/pii/S0048733314000298?via%3Dihub#bib0030<br>
-データの発行元：掲載・データの作り方：なし・データの配布：なし<br>
 
 ## Towards an explanatory and computational theory of scientific discovery
 https://www.sciencedirect.com/science/article/pii/S1751157709000236

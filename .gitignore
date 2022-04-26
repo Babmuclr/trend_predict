@@ -3,3 +3,5 @@
 
 # データ
 data/Science4Cast/*
+data/arxiv/*
+data/arxiv-metadata-oai-snapshot.json
