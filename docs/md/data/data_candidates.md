@@ -15,7 +15,7 @@
     - abstractがなくて、困る
 - Aminer (中国・清華大学)(https://www.aminer.org/data/)
     - TODO:まだやっていない
-- Academic Knowledge Graph (米国・Microsoft Research)(https://makg.org)
+- ~~Academic Knowledge Graph (米国・Microsoft Research)(https://makg.org)~~
     - 使えそうだが、どうやってやるか調べる必要がある
 
 # 研究トレンドに関する論文の詳細
