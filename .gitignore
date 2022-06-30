@@ -1,5 +1,6 @@
 # 実行上
 .ipynb_checkpoints/*
+.vscode
 
 # データ
 data/Science4Cast/*
@@ -8,6 +9,7 @@ data/arxiv-metadata-oai-snapshot.json
 data/S2AG/*
 data/dblpv13.json
 data/dblpv13.txt
+data/dblpv13_delete_similar_words.txt
 data/DBLP/*
 
 src/scripts/loss_checker.txt
