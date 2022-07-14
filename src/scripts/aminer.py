@@ -24,13 +24,6 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Parse command line options.')
 
-# parser.add_argument(
-#     '-m',
-#     '--mode',
-#     type = str,
-#     help = 'mode',
-#     required = True)
-
 parser.add_argument(
     '-d',
     '--data',
@@ -75,18 +68,6 @@ train_x, train_y = train_x[np.triu_indices(n=N, k=1)], train_y[np.triu_indices(n
 test_x, test_y = test_x[np.triu_indices(n=N, k=1)], test_y[np.triu_indices(n=N, k=1)]
 
 P = train_x.shape[0]
-
-# weight = np.where(train_y == 0.0, True, False) # if target == 0 : True else: False
-# weight_inv = np.where(weight, False, True) # if target == 0 : False else: True
-
-# 0と1以上のデータを同数にする
-# if options.mode == "same":    
-#     train_x_0, train_y_0 = train_x[weight], train_y[weight]
-#     train_x_1, train_y_1 = train_x[weight_inv], train_y[weight_inv]
-#     train_x_0, train_y_0 = utils.shuffle(train_x_0, train_y_0)
-#     train_x_0, train_y_0 = train_x_0[:len(train_x_1)], train_y_0[:len(train_y_1)]
-#     train_x, train_y = np.concatenate([train_x_0, train_x_1]), np.concatenate([train_y_0, train_y_1])
-#     print("0のデータ数: {}, 1以上のデータ数: {}".format(len(train_x_0), len(train_x_1)))
     
 print(train_x.shape, train_y.shape, test_x.shape, test_y.shape)
 
